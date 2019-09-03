@@ -1,0 +1,10 @@
+* {
+    font-family: 'Digital-7';    
+}
+
+.display-card-layout {
+    border-radius: 0px;
+    height: 45px;
+    text-align: right;
+    font-size: 45px;
+}

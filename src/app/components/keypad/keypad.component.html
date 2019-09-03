@@ -1,0 +1,10 @@
+<div class="keypad">
+    <button 
+        *ngFor="let key of keys" 
+        mat-flat-button 
+        color="primary" 
+        class="key-btn" 
+        [innerHTML]="key.value"
+        (click) = "keyClick(key)">
+    </button>
+</div>

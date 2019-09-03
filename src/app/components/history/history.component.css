@@ -1,0 +1,9 @@
+.history-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.history-btn {
+    flex: 1;
+    margin: 10px;
+}

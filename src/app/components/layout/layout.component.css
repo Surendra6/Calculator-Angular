@@ -1,0 +1,12 @@
+.main-container {
+    width: 100%;
+    height: 700px;
+    background: #FAFAFA;
+    padding-top: 5%; 
+}
+
+.card-layout {
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 0px;
+}

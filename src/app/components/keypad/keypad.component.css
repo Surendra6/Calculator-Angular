@@ -1,0 +1,22 @@
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.key-btn {
+    margin: 5px;
+    flex: 1;
+    font-size: 20px;
+    height: 50px;
+}
+
+.key-symbol-btn {
+    margin: 5px;
+    flex: 1;
+    font-size: 16px;    
+}
+
+.cls-bold {
+    font-weight: bold
+}
