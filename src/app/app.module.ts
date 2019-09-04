@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { DisplayComponent } from './components/display/display.component';
 import { HistoryComponent } from './components/history/history.component';
 import { KeypadComponent } from './components/keypad/keypad.component';
+import { HistorySheetComponent } from './components/history-sheet/history-sheet.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { KeypadComponent } from './components/keypad/keypad.component';
     PageNotFoundComponent,
     DisplayComponent,
     HistoryComponent,
-    KeypadComponent
+    KeypadComponent,
+    HistorySheetComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +28,7 @@ import { KeypadComponent } from './components/keypad/keypad.component';
     DemoMaterialModule
   ],
   providers: [],
+  entryComponents: [HistorySheetComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

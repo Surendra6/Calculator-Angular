@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayComponent implements OnInit {
 
+  displayValue : string = "0";
   constructor() { }
 
   ngOnInit() {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatBottomSheet, MatBottomSheetRef} from '@angular/material/bottom-sheet';
+import { HistorySheetComponent } from '../history-sheet/history-sheet.component';
 
 @Component({
   selector: 'app-history',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistoryComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _bottomSheet: MatBottomSheet) {}
+
+  showHistory() {
+    this._bottomSheet.open(HistorySheetComponent);
+  }
 
   ngOnInit() {
   }
